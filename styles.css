@@ -1,0 +1,323 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #cc1f1f;
+}
+body {
+  background-color: rgb(228, 238, 87);
+  background-image: url("./homepage.jpeg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  background:lightskyblue;
+}
+.colfont {
+  padding: 0.5rem;
+  color:black;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: lightgoldenrodyellow;
+}
+
+.cardtext {
+  padding-top: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+  color: rgb(235, 19, 19);
+}
+.btn-primary1 {
+  background-color: rgb(90, 168, 241);
+  border-radius: 10%;
+  padding: 0.5rem;
+  border-color: rgb(235, 18, 181);
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  margin-left: 40%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.btn-primary2 {
+  background-color: rgb(92, 66, 207);
+  border-radius: 10%;
+  padding: 0.5rem;
+  border-color: rgb(31, 182, 31);
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.btn-primary3 {
+  background-color: darkblue;
+  border-radius: 10%;
+  padding: 0.5rem;
+  border-color: green;
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.me-auto {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.head {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.bank {
+  padding-left: 30%;
+  align-items: center;
+  padding-top: auto;
+  height: 1500px;
+  width: 1500px;
+  background-color: #666;
+  
+  font-family: "Times New Roman", Times, serif;
+  font-style: pink;
+}
+.bank-1 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  background-color: #34badf;
+
+  font-size: 30px;
+  .bank-1{
+    background-image: green;
+  }
+}
+.card-img {
+  padding-left: 100px;
+}
+.bank-2 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+   background-color: lightcyan;
+  font-size: 15px;
+}
+.alld {
+  border-style: dashed;
+  border-color: darkmagenta;
+  border-width: 10px;
+}
+
+.cardbody {
+  background: pink;
+}
+.cre_sub_btn {
+  margin-left: 45%;
+  margin-bottom: 15px;
+  font-size: 20px;
+  background-color:darkmagenta;
+}
+
+.deposit {
+  border-style: groove;
+  border-color: rgb(111, 17, 148);
+  border-width: 5px;
+  border-style: 50px;
+  background: rgb(106, 192, 226);
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.mb-1 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: rgba(160, 18, 113, 0.897);
+}
+.mb-2 {
+  color: crimson;
+  text-align: center;
+}
+.mb-3 {
+  text-align: center;
+  color: rgb(160, 16, 153);
+}
+.mb-6 {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: darkgreen;
+}
+.withdraw {
+  border-style: groove;
+  border-color: rgb(111, 17, 148);
+  border-width: 5px;
+  border-style: 50px;
+  background:lightgray;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.mb-2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.mb-3 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.bg-primary {
+  text-align: center;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color:lightgray;
+}
+.trans {
+  background-color: rgb(106, 192, 226);
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+.user {
+  text-align: center;
+}
+.table,
+td,
+th {
+  text-align: center;
+  color: darkmagenta;
+}
+.navbar-brand {
+  color: rgb(90, 233, 85);
+}
+/* Add this CSS code to your stylesheet or within a <style> tag */
+
+/* Container */
+.login-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+  border: 1px solid ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color:lightseagreen;
+}
+
+/* Heading */
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Error message */
+.login-error {
+  color: red;
+  margin: 10px 0;
+}
+
+/* Input fields */
+.login-container label {
+  display: block;
+  font-weight: bold;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Login button */
+.login-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #8db520;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Link */
+.login-container p {
+  margin-top: 15px;
+  background-attachment: fixed;
+}
+
+.login-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+.app {
+  width: 300px;
+  margin: 50px auto;
+  background-color: #d40d0d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+.form {
+  margin-bottom: 20px;
+}
+.input-container {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.button-container {
+  text-align: center;
+}
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+}
